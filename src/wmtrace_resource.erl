@@ -14,7 +14,7 @@
          produce_map/2,
          produce_css/2]).
 
--include_lib("webmachine/include/wm_reqdata.hrl").
+-include("wm_reqdata.hrl").
 
 -record(ctx, {trace_dir, trace}).
 
